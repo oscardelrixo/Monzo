@@ -1,0 +1,99 @@
+
+/* 0. Caracteristicas Comunes */
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    width: 100%;
+}
+.white {
+    color: white; 
+}
+.black {
+    color: black; 
+}
+.gris {
+    color: var(--color2);
+}
+
+h1 {
+    font-size: 42px;
+ 
+}
+h2 {
+    font-size: 40px;
+
+    /* Se modifico el css propio del navegador */
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    /* FIN cambios por culpa del navegador */
+}
+h3 {
+    font-size: 28px; 
+}
+h4 {
+    font-size: 25px; 
+} 
+/* 0.1 Enlaces */
+a {
+  text-decoration: none;
+}
+/* Enlace aun sin visitar*/
+a:link {
+  color: grey;
+}
+
+/* Enlace ya visitado */
+a:visited {
+  color: gray;
+}
+
+/* Ratón sobre el enlace */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Enlace seleccionado */
+a:active {
+  color: orangered;
+}
+/* 0.1 Fin Enlaces */
+
+/* 0. Fin Comunes */
+
+  /* Clases Vinculadas al Menu Responsive JS*/
+.mostrar, .nomostrar {
+    display: none; 
+  
+  }
+.desplegable {
+    width: 100%;
+    display: none; 
+    flex-wrap: wrap; 
+  }
+.desplegable :hover {
+    background-color: var(--colorsecundario); 
+  }
+.desplegable > a {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--colorprincipal);
+    color: white;
+    border-top: solid 2px white;
+    font-size: 14px;
+  }
+.desplegable a:last-child {
+      border-bottom: solid 2px white;
+  }
+

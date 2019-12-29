@@ -1,0 +1,39 @@
+/* 5. Footer*/
+.footer {
+    background-color: var(--colorprincipal);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+}
+
+.menuInferior {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.menuInferior > img {
+    width: auto; 
+    height: 40px;
+}
+.menuInferior > div {
+    padding-left: 130px;
+}
+.SocialMedia > img {
+    width: 45px;
+    height: 45px;
+
+    padding: 12px;
+    margin: 0px 10px;
+
+    background-color: var(--colorsecundario);
+
+    border-radius: 5px;
+    border: 0px solid var(--colorborder);
+}
+.SocialMedia > img:nth-child(2) {
+    padding: 5px;
+  }
+
+/* 5. Fin Footer */

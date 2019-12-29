@@ -1,0 +1,34 @@
+/* 3. Resumen*/
+.resumen {
+    width: 100%;
+
+    padding: 50px 100px;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.descript > p {
+    font-size: 20px;
+    margin-bottom: 15px;  
+}
+.imagen > img {
+    width: auto;
+    height: 500px;
+}
+.tarjeta {
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-right: 100px;
+}
+.descript {
+    padding: 10px;
+}
+.tarjeta > img {
+    width: 30px;
+    height: auto;
+                    
+}
+
+/* FIN 3. Resumen*/

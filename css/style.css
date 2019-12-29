@@ -1,0 +1,10 @@
+/* Base */ 
+@import url(variables.css);
+@import url(general.css);
+@import url(cabecera.css);
+@import url(introduccion.css);
+@import url(resumen.css);
+@import url(caracteristic.css);
+@import url(piedepagina.css);
+@import url(movil.css);
+/* … */

@@ -1,0 +1,223 @@
+/* 6. Inicio Media */
+@media (max-width: 950px) {
+    /* 0. Caracteristicas Comunes */
+    h2 {
+        font-size: 32px;
+    }
+    h4 {
+        margin: 10px 0px;
+    }
+    .mostrar {
+        display: flex;  
+    }
+      
+    /* 0. Fin Caracteristicas Comunes */
+
+    /* 1. Header */
+    .logo {
+        width: auto;
+        height: 30px;
+        
+    }
+    .header {
+        margin: 0px;
+        padding: 10px 50px 5px 50px;
+        border: 0px;
+
+        width: 100%;
+     
+
+
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: center;
+
+        border-bottom: var(--colorRGBA) 0.5px solid;
+    }
+
+    .centro {        
+        display: none;
+    }
+
+    .der {
+        display: none;
+    }
+
+    .menuMovil {
+        display: flex;
+        align-items: center;
+
+    }
+    .boton {
+        padding: 10px 16px;
+        background-color: var(--colorboton);
+        color: white;
+        border-radius: 5px;
+        border: 0px solid var(--colorborder);
+        
+    }
+    /* 1. Fin Header */
+
+
+    /* 2. Intro */
+    .intro {
+        width: 100%;
+        
+        background-color: var(--colorprincipal);
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .texto {
+        padding: 40px 60px 40px 60px;
+        text-align: left
+    }
+    .texto > p {
+        font-size: 25px;
+        margin-bottom: 15px;  
+    }
+    .tarjetaymovil {
+        display: none;
+
+    }
+    .tarjetacredito {
+        display: flex;
+        width: 80%;
+        height: auto;
+    }
+
+    /* FIN 2.Intro*/
+
+    /* 3. Resumen*/
+    .resumen {
+        width: 100%;
+
+        padding: 50px 25px;
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .descript > p {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 15px;  
+    }
+    .imagen {
+        display: flex;
+        justify-content: center;
+    }
+    .imagen > img {
+        width: 90%;
+        height: auto;
+    }
+    .tarjeta {
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: baseline;
+        padding-right: 0px;
+        margin: 12px 0px;
+    }
+    .descript {
+        padding: 0px;
+    }
+    .tarjeta > img {
+        width: 30px;
+        height: auto;
+                        
+    }
+
+    /* FIN 3. Resumen*/
+
+
+    /* 4. Características*/
+    .caracteristicas {
+        background: url("../img/images-current-account/current-account.jpg") top center no-repeat;
+        
+
+        padding-top: 300px;
+    }
+    
+    .tarjetero2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .fila1, .fila2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .tarjeta2 {
+        display: flex; 
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: white;
+        
+        margin: 15px;
+        padding: 25px;
+
+        border-radius: 5px;
+        border: 0px solid var(--colorborder);
+        
+    }
+    .imagenes {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .imagenes > img {
+        width: auto; 
+        height: 55px;
+        margin: 10px 0px;
+    }
+
+    /* FIN 4. Características */
+
+
+    /* 5. Footer*/
+    .footer {
+        flex-direction: column;
+        padding: 80px 40px;
+        align-items: flex-start;
+    }
+    .footer > img {
+        margin-left: 12px;
+    }
+    .menuInferior {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .menuInferior > img {
+        width: auto; 
+        height: 45px;
+    }
+    .menuInferior > div {
+        padding: 20px; 
+
+    }
+    .SocialMedia > img {
+        width: 45px;
+        height: 45px;
+
+        padding: 10px;
+        margin: 0px 10px;
+
+        background-color: var(--colorsecundario);
+
+        border-radius: 5px;
+        border: 0px solid var(--colorborder);
+    }
+    .SocialMedia > img:nth-child(2) {
+        padding: 5px;
+    }
+    /* 5. Fin Footer */
+
+}

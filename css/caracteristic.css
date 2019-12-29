@@ -1,0 +1,47 @@
+/* 4. Características*/
+.caracteristicas {
+    background: url("../img/images-current-account/current-account.jpg") top right no-repeat;
+    background-color: whitesmoke;
+
+    padding-top: 300px;
+}
+
+.tarjetero2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.fila1, .fila2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tarjeta2 {
+    display: flex; 
+    flex-wrap: nowrap;
+    width: 50%;
+    background-color: white;
+    
+    margin: 15px;
+    padding: 25px;
+
+    border-radius: 5px;
+    border: 0px solid var(--colorborder);
+    box-shadow: 0px 0px 40px 10px var(--colorboxshadow);                            
+}
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagenes > img {
+    width: auto; 
+    height: 55px;
+
+    margin: 10px 5px;
+}
+
+
+/* FIN 4. Características */

@@ -1,0 +1,10 @@
+/* Variables CSS */
+:ROOT {
+    --color2: #aab2c0;
+    --colorprincipal: #14233c;
+    --colorsecundario: #4d5870; 
+    --colorRGBA: rgba(42, 56, 81, 1); 
+    --colorboton: #00a0d6; 
+    --colorborder: #000000;
+    --colorboxshadow: rgba(173,168,173,1);  
+}

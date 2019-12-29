@@ -1,0 +1,29 @@
+/* 2. Intro */
+.intro {
+    width: 100%;
+    
+    background-color: var(--colorprincipal);
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.texto {
+    padding: 40px 20px 40px 60px;
+    
+}
+.texto > p {
+    font-size: 25px;
+    margin-bottom: 15px;  
+}
+.tarjetaymovil {
+    float: right;
+    height: 650px;
+
+}
+.tarjetacredito {
+    display: none;
+}
+
+
+/* FIN 2.Intro*/
